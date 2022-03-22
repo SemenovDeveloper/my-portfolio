@@ -2,17 +2,20 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+}
 
 .App {
-  text-align: center; }
+  text-align: center;
+}
 
 a {
   text-decoration: none;
-  color: white; }
-
+  color: white;
+}
 li {
-  list-style: none; }
+  list-style: none;
+}
 
 #nav-bar {
   position: fixed;
@@ -23,19 +26,23 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.75rem; }
-  #nav-bar ul {
+  font-size: 1.75rem;
+  ul {
     display: flex;
     flex-direction: row;
     align-items: space-around;
     margin: 0px;
-    padding: 0px; }
-    #nav-bar ul li {
+    padding: 0px;
+    li{
       display: inline;
       height: 100%;
-      padding: 0 1rem; }
-  #nav-bar ul :hover {
-    background-color: black; }
+      padding: 0 1rem;
+    }
+  }
+  ul :hover{
+    background-color: black;
+  }
+}
 
 #about {
   height: 100vh;
@@ -44,21 +51,24 @@ li {
   background: #6b705c;
   justify-content: space-around;
   align-items: center;
-  font-size: 1.75rem; }
-  #about #about-me {
-    width: 600px; }
-  #about #image-block {
+  font-size: 1.75rem;
+  #about-me {
+    width: 600px;
+  }
+  #image-block {
     width: 400px;
     height: 500px;
-    border: 2px solid black; }
-  #about img {
+    border: 2px solid black;
+  }
+  img {
     width: 400px;
-    height: 600px; }
+    height: 600px;
+  }
+}
 
 #projects {
-  height: 100vh; }
+  height: 100vh;
+}
 
 #skills {
   height: 100vh; }
-
-/*# sourceMappingURL=App.css.map */
